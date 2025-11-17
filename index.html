@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Special Place</title>
+
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: #fff0f6;
+            text-align: center;
+            color: #9b0038;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 45px;
+            margin: 0;
+            letter-spacing: 2px;
+            color: #b3004b;
+            text-shadow: 0 2px 10px rgba(255, 150, 185, 0.5);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        p {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #ff4f8a;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background: white;
+            box-shadow: 0 0 12px #ffc9df;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #ff9fc3;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .container {
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #b3004b;
+        }
+
+        article p {
+            width: 80%;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 18px;
+            margin-top: 20px;
+            box-shadow: 0 0 25px #ffb6d6;
+            transition: 0.5s ease;
+            opacity: 0;
+            animation: fadeImg 1.5s forwards;
+        }
+
+        img:hover {
+            transform: scale(1.07);
+            box-shadow: 0 0 35px #ff8fbc;
+        }
+
+        .start-button {
+            display: inline-block;
+            margin-top: 35px;
+            padding: 12px 25px;
+            font-size: 20px;
+            text-decoration: none;
+            background: #ff5c8d;
+            color: white;
+            border-radius: 25px;
+            box-shadow: 0 0 18px #ff9fbd;
+            transition: 0.3s;
+        }
+
+        .start-button:hover {
+            background: #ff85a9;
+            transform: scale(1.08);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        /* Romantic fade animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeImg {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Special Place</h1>
+        <p>Where feelings speak louder than words…</p>
+    </header>
+
+    <div class="container">
+        <article>
+            <h2>A Place to Cherish Someone Special</h2>
+            <p>This space is created to celebrate a feeling… a person… and the beautiful moments they bring into my world.</p>
+
+            <section>
+                <img src="WhatsApp Image 2025-11-07 at 23.57.19_5e1e4326.jpg" alt="Special Image">
+            </section>
+        </article>
+    </div>
+
+    <a href="mylife.html" class="start-button">Dive More</a>
+
+    <footer>
+        <p>&copy; 2024 My Special Place</p>
+    </footer>
+
+</body>
+</html>

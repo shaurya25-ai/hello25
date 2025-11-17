@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before You Came</title>
+
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: #fff0f6;
+            text-align: center;
+            color: #9b0038;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 45px;
+            margin: 0;
+            letter-spacing: 2px;
+            color: #b3004b;
+            text-shadow: 0 2px 10px rgba(255, 150, 185, 0.5);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .container {
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .story {
+            width: 80%;
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            margin: auto;
+            box-shadow: 0 0 20px #ffb9d6;
+            font-size: 18px;
+            line-height: 1.7;
+            animation: fadeText 2s ease;
+        }
+
+        /* Filled image slot */
+        .filled-image {
+            height: 220px;
+            width: 70%;
+            margin: 40px auto 0;
+            border-radius: 20px;
+            object-fit: cover; 
+            display: block;
+            box-shadow: 0 0 20px #ffb9d6;
+            animation: fadeImg 2s ease forwards;
+        }
+
+        /* Empty slot */
+        .empty-space {
+            height: 220px;
+            width: 70%;
+            margin: 40px auto 0;
+            border-radius: 20px;
+            background: #ffe1eb;
+            box-shadow: inset 0 0 15px #ffc6d9;
+            opacity: 0.5;
+            animation: fadeImg 2s ease forwards;
+        }
+
+        .start-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            font-size: 20px;
+            text-decoration: none;
+            background: #ff5c8d;
+            color: white;
+            border-radius: 25px;
+            box-shadow: 0 0 18px #ff9fbd;
+            transition: 0.3s;
+        }
+
+        .start-button:hover {
+            background: #ff85a9;
+            transform: scale(1.08);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeImg {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        @keyframes fadeText {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Before You Came...</h1>
+    </header>
+
+    <div class="container">
+        <div class="story">
+            Before you came into my life, everything felt quiet…  
+            almost too quiet.  
+            Days looked the same, nights felt longer,  
+            and even in a room full of people, I felt alone.  
+
+            <br><br>
+
+            Life was simple, but it was colourless —  
+            like a sky without sunrise,  
+            like music playing without emotion,  
+            like a story still waiting for its first beautiful chapter.  
+
+            <br><br>
+
+            And then you came.  
+            Slowly, softly… without even trying.  
+
+            <br><br>
+
+            You brought colours I never knew I was missing.  
+            Warmth I didn’t know I needed.  
+            And a kind of peace that feels rare in this world.  
+
+            <br><br>
+
+            My life didn’t suddenly become perfect —  
+            but it became **alive**.  
+            And that changed everything.
+        </div>
+
+        <img src="WhatsApp Image 2025-11-17 at 09.13.45_be9c9c46.jpg" alt="Special Image" class="filled-image">
+
+    </div>
+
+    <a href="coffession.html" class="start-button">Next Page</a>
+
+    <footer>
+        <p>&copy; 2024 My Special Place</p>
+    </footer>
+
+</body>
+</html>
